@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.logo img {
+    width: 170px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0 131px;
+
+}
+
+.right ul {
+    gap: 20px;
+    display: flex;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    display: flex;
+    padding: 0 5px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+section span img {
+    width: 112px;
+    margin: 0 18px;
+
+}
+
+.first p {
+    font-size: 19px;
+    width: 38vw;
+    text-align: center;
+}
+.btn{
+background: #00b6d1;
+padding: 14px 16px;
+border: none;
+color: white;
+font-family: segoe UI;
+border-radius: 6px;
+font-weight: 700;
+cursor: pointer;
+
+}
+
+.small{
+    font-size: 12px;
+}
+
+.second{
+   max-width: 54vw;
+   margin: auto;
+}
+.green{
+    background-color: #5cb85c;
+    margin-left: 76px;
+    margin-right: 50px;
+}
+.hash{
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+
+}
+.code{
+    font-size: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item p{
+    word-wrap: break-word;
+}
+.item{
+    font-size: 20px;
+    padding: 23px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.download :nth-child(2){
+    font-size: 24px;
+}
+.download img{
+    padding: 0 15px;
+}
+.download{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:1162px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+        background-color: red;
+    }
+    
+}
